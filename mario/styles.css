@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.edgeLoad-EDGE-34189304{ 
+visibility:hidden; 
+}
+
+body{
+background-color: #0099CC;
+}
+
+
+.EDGE-34189304 {
+margin-top:20px;
+margin-bottom: 45px;
+margin-left:auto;
+margin-right:auto;
+border:solid 6px black;
+}

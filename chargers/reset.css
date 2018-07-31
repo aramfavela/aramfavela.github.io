@@ -1,0 +1,316 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of reset rules*/
+
+body {
+background-image: url("images/chargers.jpg");	
+background-repeat: no-repeat;
+background-position: 50% 0;
+}
+	
+#maincontainer {
+width: 1000px;
+margin: 0 auto;
+
+}
+	
+#logobar{
+float: left;
+margin-left: 30px;
+margin-top: 120px;
+}
+
+#navbar {
+background-color: #002a58;
+magin-top: 400px;
+clear: both;
+color: #fff;
+font-family: 'Pathway Gothic One', sans-serif;
+font-size: 35px;
+height: 47px;
+text-align: center;
+}
+
+#navbar ul {
+margin: 0;
+padding-top: 9px;
+font-size: 30px;
+}
+
+#navbar ul li { display: inline; }
+
+#navbar ul li a {
+text-decoration: none;
+padding: .2em 1em;
+color: #fff;
+background-color:#002a58;
+}
+
+#navbar ul li a:hover {
+color: #002a58;
+background-color: #fff;
+}
+
+#whitecontainer{
+width: 1000px;
+height: 1950px;
+background-color: white;
+}
+
+#whitecontainer2{
+width: 1000px;
+height: 1000px;
+background-color: white;
+}
+
+.mainimage {
+float: left;	
+}
+
+#maincontent {
+text-align:center;
+}
+
+#maincontent a {
+color: #fff;
+text-decoration: none;
+}
+
+#maincontent a:hover { 
+color: #ffc144; 
+}
+
+.blank {
+margin-bottom: 20px;
+}
+	
+.blank a:hover {
+color: #ffc144
+}
+
+.sidecontent {
+float: left;
+}
+
+.sidecontent h1 {
+color: #fff;
+font-family:'Pathway Gothic One', sans-serif;
+text-align:center;
+font-size:28px;
+padding-top: 15px;
+padding-bottom: 25px;
+}
+
+.sidecontent ul li a{
+padding-left: 5px;
+line-height: 40px;
+overflow: auto;
+color: #fff;
+text-decoration: none;
+font-family: arial, sans-serif;
+}
+
+.sidecontent ul li a:hover {
+color: #ffc144;
+}
+
+#maincontent {
+background-color: #002a58;
+width: 960px;
+height: 554px;
+margin: 0 auto;
+clear: both;
+}
+
+#maincontainer .mainimage .shopheader2 .blank a:hover { 
+color: #ffc144;
+}
+
+.paddingcontainer {
+padding-top: 40px;
+padding-bottom: 20px;
+}
+
+.paddingcontainer2 {
+padding-bottom: 20px;
+clear:both;
+}
+
+#chargersgirls {
+background-color: #002a58;
+padding-top: 20px;
+width: 960px;
+height: 580px;
+margin: 0 auto;
+clear: both;
+text-align:center;
+}
+
+.calendar  {
+color: #fff;
+font-family:'Pathway Gothic One', sans-serif;
+font-size:35px;
+text-decoration: none;
+}
+
+#chargersgirls a:hover {
+color: #ffc144;
+}
+
+#chargersgirls img{
+padding-top: 30px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+#shop {
+background-color: #002a58;
+width: 960px;
+height: 420px;
+margin: 0 auto;
+clear: both;
+text-align:center;
+}
+
+#shop3 {
+background-color: #002a58;
+width: 960px;
+height: 475px;
+margin: 0 auto;
+text-align:center;
+}
+
+#shop4 {
+background-color: #002a58;
+width: 960px;
+height: 472px;
+margin: 0 auto;
+text-align:center;
+}
+
+#shop5 {
+background-color: #002a58;
+width: 960px;
+height: 472px;
+margin: 0 auto;
+text-align:center;
+}
+
+#shop6 {
+background-color: #002a58;
+width: 960px;
+height: 700px;
+margin: 0 auto;
+text-align:center;
+}
+		
+#shop img {
+padding-top: 30px;	
+}
+	
+#shop a:hover {
+color: #ffc144;
+}
+	
+.shopheader {
+font-family:'Pathway Gothic One', sans-serif;
+font-size:35px;
+padding-top: 20px;
+}
+
+.shopheader2 {
+font-family:'Pathway Gothic One', sans-serif;
+font-size:35px;
+padding-top: 20px;
+}
+
+.shopheader a {
+text-decoration: none;
+color: #fff;
+}
+
+.footertop {
+background-color: #00132d;
+width: 960px;
+height: 180px;
+margin: 0 auto;
+text-align:center;
+color: #fff;
+font-family: arial, sans-serif;
+}
+
+.footertop  a{
+color: #fff;	
+text-decoration: none;
+}
+
+.footertop ul li {
+padding-top: 15px;
+}
+
+.footertop a:hover {
+color: #ffc144;	
+}
+
+#footer img {
+display:block;
+margin-left:auto;
+margin-right:auto;	
+}
+
+#footer {
+	
+	padding-bottom: 20px;
+	}
+
+
